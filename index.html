@@ -4,10 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prueba De Diagnóstico</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <title>My Sidebar Library </title>
 </head>
 <body>
-  <div id="usuarios"></div>
+<!--   
+  <button onclick="addBook()">Agregar Libro</button>
+  <button onclick="addComic()">Agregar Comic</button>
+  <button onclick="showProducts()">Ver Productos</button> -->
+
+
+  <div class="container">
+    <div id="sidebar" class="sidebar">
+
+      <!-- <ul>
+        <li>Show Books</li>
+        <li>Show comics</li>
+        <li>Add comic</li>
+        <li>Add book</li>
+      </ul> -->
+
+      <ul id="list"></ul>
+
+    </div>
+    <div id="main-content" class="main-content"></div>
+  </div>
 </body>
 <script src="./main.js"></script>
 </html>
