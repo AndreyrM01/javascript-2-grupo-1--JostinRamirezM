@@ -39,22 +39,13 @@ ul {
 
 .icon {
   width: 27px;
-  position: absolute;
+  position: relative;
 }
 
 .i-show {
-  margin: 16px 0px 0px 13px;
+  right: 10px;
+  top: 3.5px;
 }
 
-.i-show__comic {
-  margin: 102px 0px 0px 13px;
-}
 
-.i-add {
-  margin: 186px 0px 0px 13px;
-}
-
-.i-add__comic {
-  margin: 272px 0px 0px 13px;
-}
 
